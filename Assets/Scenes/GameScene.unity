@@ -690,6 +690,7 @@ GameObject:
   - component: {fileID: 533005822}
   - component: {fileID: 533005824}
   - component: {fileID: 533005823}
+  - component: {fileID: 533005825}
   m_Layer: 5
   m_Name: Map
   m_TagString: Untagged
@@ -753,6 +754,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 533005821}
   m_CullTransparentMesh: 0
+--- !u!114 &533005825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533005821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e676955338607b1488e2ae8658f3cac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprite: []
+  map: {fileID: 1492594688}
 --- !u!1 &566417465
 GameObject:
   m_ObjectHideFlags: 0
