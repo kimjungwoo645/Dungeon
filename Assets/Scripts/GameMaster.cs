@@ -19,4 +19,8 @@ public class GameMaster : MonoBehaviour
         hpText.text = warrior.hp.ToString();
         mpText.text = warrior.mp.ToString();
     }
+    public void OnClickButton()
+    {
+        Debug.Log("작동");
+    }
 }
